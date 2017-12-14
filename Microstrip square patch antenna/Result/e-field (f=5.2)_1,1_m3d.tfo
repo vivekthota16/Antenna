@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CST3DFieldViewInfoText creator="" version="20140203">
+  <Title data="e-field (f=5.2) [1]" type="3D freq domain monitor"/>
+  <TextItem name="Type">
+    <Text visible="false" label="Type:" data="E-Field" condition="" numberFormat="g" numberPrecision="4"/>
+  </TextItem>
+  <TextItem name="Iso_Value">
+    <Text visible="true" label="Iso Value:" data="$ifxCSTIsoSurface@isoValue$" condition="$ifxCSTIsoSurface@activate$=1" numberFormat="g" numberPrecision="4"/>
+  </TextItem>
+  <TextItem name="Probe_Position">
+    <Text visible="true" label="Mouse Position:" data="$ifxCSTProbingFilter@intersectionPoint$" condition="$ifxNavigationModule@probing$=1 AND $ifxCSTProbingFilter@hit$=1 AND $ifxOpenSGGlyphViewer@activate$=0 AND $ifxOpenSGGlyphViewer_PortMode@activate$=0 AND $ifxOpenSGGlyphViewer_Cutplane0@activate$=0 AND $ifxOpenSGGlyphViewer_Cutplane1@activate$=0 AND $ifxOpenSGGlyphViewer_Cutplane2@activate$=0 AND $ifxOpenSGGlyphViewer_Cutplane3@activate$=0 AND $ifxCSTStreamer@activate$=0" numberFormat="g" numberPrecision="4"/>
+  </TextItem>
+  <TextItem name="Probe_Value">
+    <Text visible="true" label="Result at Mouse Position:" data="$ifxCSTProbingFilter@outputValue$" condition="$ifxNavigationModule@probing$=1 AND $ifxCSTProbingFilter@hit$=1 AND $ifxOpenSGGlyphViewer@activate$=0 AND $ifxOpenSGGlyphViewer_PortMode@activate$=0 AND $ifxOpenSGGlyphViewer_Cutplane0@activate$=0 AND $ifxOpenSGGlyphViewer_Cutplane1@activate$=0 AND $ifxOpenSGGlyphViewer_Cutplane2@activate$=0 AND $ifxOpenSGGlyphViewer_Cutplane3@activate$=0 AND $ifxCSTStreamer@activate$=0" numberFormat="g" numberPrecision="4"/>
+  </TextItem>
+  <TextItem name="Probe_Position">
+    <Text visible="true" label="Mouse Position:" data="$ifxCSTProbingFilter@intersectionPoint$" condition="$ifxNavigationModule@probing$=1 AND $ifxCSTProbingFilter@hit$=1 AND $ifxOpenSGGlyphViewer_PortMode@activate$=1 OR $ifxNavigationModule@probing$=1 AND $ifxCSTProbingFilter@hit$=1 AND $ifxOpenSGGlyphViewer_Cutplane0@activate$=1 OR $ifxNavigationModule@probing$=1 AND $ifxCSTProbingFilter@hit$=1 AND $ifxOpenSGGlyphViewer_Cutplane1@activate$=1 OR $ifxNavigationModule@probing$=1 AND $ifxCSTProbingFilter@hit$=1 AND $ifxOpenSGGlyphViewer_Cutplane2@activate$=1 OR $ifxNavigationModule@probing$=1 AND $ifxCSTProbingFilter@hit$=1 AND $ifxOpenSGGlyphViewer_Cutplane3@activate$=1 OR $ifxNavigationModule@probing$=1 AND $ifxCSTProbingFilter@hit$=1 AND $ifxCSTStreamer@activate$=1" numberFormat="g" numberPrecision="4"/>
+  </TextItem>
+  <TextItem name="Probe_Value">
+    <Text visible="true" label="Result at Mouse Position:" data="$ifxCSTProbingFilter@outputVectorValue$" condition="$ifxNavigationModule@probing$=1 AND $ifxCSTProbingFilter@hit$=1 AND $ifxOpenSGGlyphViewer_PortMode@activate$=1 OR $ifxNavigationModule@probing$=1 AND $ifxCSTProbingFilter@hit$=1 AND $ifxOpenSGGlyphViewer_Cutplane0@activate$=1 OR $ifxNavigationModule@probing$=1 AND $ifxCSTProbingFilter@hit$=1 AND $ifxOpenSGGlyphViewer_Cutplane1@activate$=1 OR $ifxNavigationModule@probing$=1 AND $ifxCSTProbingFilter@hit$=1 AND $ifxOpenSGGlyphViewer_Cutplane2@activate$=1 OR $ifxNavigationModule@probing$=1 AND $ifxCSTProbingFilter@hit$=1 AND $ifxOpenSGGlyphViewer_Cutplane3@activate$=1 OR $ifxNavigationModule@probing$=1 AND $ifxCSTProbingFilter@hit$=1 AND $ifxCSTStreamer@activate$=1" numberFormat="g" numberPrecision="4"/>
+  </TextItem>
+  <TextItem name="Cross_Section_Identifier">
+    <Text visible="true" label="Cutplane Name:" data="Cross Section A" condition="$ifxCrossSection_Cutplane0@activate$=1 AND $ifxNavigationModule@cutplaneSelection$=0" numberFormat="g" numberPrecision="4"/>
+  </TextItem>
+  <TextItem name="Cross_Section_Identifier">
+    <Text visible="true" label="Cutplane Name:" data="Cross Section B" condition="$ifxCrossSection_Cutplane1@activate$=1 AND $ifxNavigationModule@cutplaneSelection$=1" numberFormat="g" numberPrecision="4"/>
+  </TextItem>
+  <TextItem name="Cross_Section_Identifier">
+    <Text visible="true" label="Cutplane Name:" data="Cross Section C" condition="$ifxCrossSection_Cutplane2@activate$=1 AND $ifxNavigationModule@cutplaneSelection$=2" numberFormat="g" numberPrecision="4"/>
+  </TextItem>
+  <TextItem name="Cross_Section_Identifier">
+    <Text visible="true" label="Cutplane Name:" data="Cross Section D" condition="$ifxCrossSection_Cutplane3@activate$=1 AND $ifxNavigationModule@cutplaneSelection$=3" numberFormat="g" numberPrecision="4"/>
+  </TextItem>
+  <TextItem name="Plane_Normal">
+    <Text visible="true" label="Cutplane Normal:" data="$ifxNavigationModule@cutplaneNormal$" condition="$ifxCrossSection_Cutplane0@activate$=1 OR $ifxCrossSection_Cutplane1@activate$=1 OR $ifxCrossSection_Cutplane2@activate$=1 OR $ifxCrossSection_Cutplane3@activate$=1 OR $ifxCrossSection_PortMode@activate$=1" numberFormat="g" numberPrecision="4"/>
+  </TextItem>
+  <TextItem name="Plane_Position">
+    <Text visible="true" label="Cutplane Position:" data="$ifxNavigationModule@cutplaneDistance$" condition="$ifxCrossSection_Cutplane0@activate$=1 OR $ifxCrossSection_Cutplane1@activate$=1 OR $ifxCrossSection_Cutplane2@activate$=1 OR $ifxCrossSection_Cutplane3@activate$=1 OR $ifxCrossSection_PortMode@activate$=1" numberFormat="g" numberPrecision="4"/>
+  </TextItem>
+  <TextItem name="Component">
+    <Text visible="true" label="Component:" data="$ifxOpenSGContourViewer@plot@component$" condition="$ifxOpenSGGlyphViewer@activate$=0 AND $ifxOpenSGGlyphViewer_PortMode@activate$=0 AND $ifxOpenSGGlyphViewer_Cutplane0@activate$=0 AND $ifxOpenSGGlyphViewer_Cutplane1@activate$=0 AND $ifxOpenSGGlyphViewer_Cutplane2@activate$=0 AND $ifxOpenSGGlyphViewer_Cutplane3@activate$=0 AND $ifxCSTStreamer@activate$=0" numberFormat="g" numberPrecision="4"/>
+  </TextItem>
+  <TextItem name="Max3D_Value">
+    <Text visible="true" label="3D Maximum [V/m]:" data="$ifxOpenSGContourViewer@maxValue$" condition="$ifxCrossSection_Cutplane0@activate$=0 AND $ifxCrossSection_Cutplane1@activate$=0 AND $ifxCrossSection_Cutplane2@activate$=0 AND $ifxCrossSection_Cutplane3@activate$=0 AND $ifxCrossSection_PortMode@activate$=0" numberFormat="g" numberPrecision="4"/>
+  </TextItem>
+  <TextItem name="Max3D_Position">
+    <Text visible="false" label="3D Max. Position:" data="$ifxOpenSGContourViewer@maxValuePos$" condition="$ifxCrossSection_Cutplane0@activate$=0 AND $ifxCrossSection_Cutplane1@activate$=0 AND $ifxCrossSection_Cutplane2@activate$=0 AND $ifxCrossSection_Cutplane3@activate$=0 AND $ifxCrossSection_PortMode@activate$=0" numberFormat="g" numberPrecision="4"/>
+  </TextItem>
+  <TextItem name="Max2D_Value">
+    <Text visible="true" label="2D Maximum [V/m]:" data="$ifxOpenSGContourViewer_Cutplane0@maxValue$" condition="$ifxCrossSection_Cutplane0@activate$=1 AND $ifxNavigationModule@cutplaneSelection$=0" numberFormat="g" numberPrecision="4"/>
+  </TextItem>
+  <TextItem name="Max2D_Position">
+    <Text visible="false" label="2D Max. Position:" data="$ifxOpenSGContourViewer_Cutplane0@maxValuePos$" condition="$ifxCrossSection_Cutplane0@activate$=1 AND $ifxNavigationModule@cutplaneSelection$=0" numberFormat="g" numberPrecision="4"/>
+  </TextItem>
+  <TextItem name="Max2D_Value">
+    <Text visible="true" label="2D Maximum [V/m]:" data="$ifxOpenSGContourViewer_Cutplane1@maxValue$" condition="$ifxCrossSection_Cutplane1@activate$=1 AND $ifxNavigationModule@cutplaneSelection$=1" numberFormat="g" numberPrecision="4"/>
+  </TextItem>
+  <TextItem name="Max2D_Position">
+    <Text visible="false" label="2D Max. Position:" data="$ifxOpenSGContourViewer_Cutplane1@maxValuePos$" condition="$ifxCrossSection_Cutplane1@activate$=1 AND $ifxNavigationModule@cutplaneSelection$=1" numberFormat="g" numberPrecision="4"/>
+  </TextItem>
+  <TextItem name="Max2D_Value">
+    <Text visible="true" label="2D Maximum [V/m]:" data="$ifxOpenSGContourViewer_Cutplane2@maxValue$" condition="$ifxCrossSection_Cutplane2@activate$=1 AND $ifxNavigationModule@cutplaneSelection$=2" numberFormat="g" numberPrecision="4"/>
+  </TextItem>
+  <TextItem name="Max2D_Position">
+    <Text visible="false" label="2D Max. Position:" data="$ifxOpenSGContourViewer_Cutplane2@maxValuePos$" condition="$ifxCrossSection_Cutplane2@activate$=1 AND $ifxNavigationModule@cutplaneSelection$=2" numberFormat="g" numberPrecision="4"/>
+  </TextItem>
+  <TextItem name="Max2D_Value">
+    <Text visible="true" label="2D Maximum [V/m]:" data="$ifxOpenSGContourViewer_Cutplane3@maxValue$" condition="$ifxCrossSection_Cutplane3@activate$=1 AND $ifxNavigationModule@cutplaneSelection$=3" numberFormat="g" numberPrecision="4"/>
+  </TextItem>
+  <TextItem name="Max2D_Position">
+    <Text visible="false" label="2D Max. Position:" data="$ifxOpenSGContourViewer_Cutplane3@maxValuePos$" condition="$ifxCrossSection_Cutplane3@activate$=1 AND $ifxNavigationModule@cutplaneSelection$=3" numberFormat="g" numberPrecision="4"/>
+  </TextItem>
+  <TextItem name="Max2D_Value">
+    <Text visible="true" label="2D Maximum [V/m]:" data="$ifxOpenSGContourViewer_PortMode@maxValue$" condition="$ifxCrossSection_PortMode@activate$=1" numberFormat="g" numberPrecision="4"/>
+  </TextItem>
+  <TextItem name="Max2D_Position">
+    <Text visible="false" label="2D Max. Position:" data="$ifxOpenSGContourViewer_PortMode@maxValuePos$" condition="$ifxCrossSection_PortMode@activate$=1" numberFormat="g" numberPrecision="4"/>
+  </TextItem>
+  <TextItem name="Frequency">
+    <Text visible="true" label="Frequency:" data="5.2" condition="" numberFormat="g" numberPrecision="7"/>
+  </TextItem>
+  <TextItem name="Phase">
+    <Text visible="true" label="Phase:" data="$ifxNavigationModule@phase@current$" scaling="1" condition="$ifxOpenSGContourViewer@plot@attribute$=Wave" numberFormat="g" numberPrecision="4"/>
+  </TextItem>
+  <TextItem name="Average">
+    <Text visible="true" label="Plot Attribute:" data="Average" condition="$ifxOpenSGGlyphViewer@activate$=0 AND $ifxOpenSGGlyphViewer_PortMode@activate$=0 AND $ifxOpenSGGlyphViewer_Cutplane0@activate$=0 AND $ifxOpenSGGlyphViewer_Cutplane1@activate$=0 AND $ifxOpenSGGlyphViewer_Cutplane2@activate$=0 AND $ifxOpenSGGlyphViewer_Cutplane3@activate$=0 AND $ifxCSTStreamer@activate$=0 AND $ifxOpenSGContourViewer@plot@attribute$=Average" numberFormat="g" numberPrecision="4"/>
+  </TextItem>
+  <TextItem name="Maximum">
+    <Text visible="true" label="Plot Attribute:" data="Maximum" condition="$ifxOpenSGGlyphViewer@activate$=0 AND $ifxOpenSGGlyphViewer_PortMode@activate$=0 AND $ifxOpenSGGlyphViewer_Cutplane0@activate$=0 AND $ifxOpenSGGlyphViewer_Cutplane1@activate$=0 AND $ifxOpenSGGlyphViewer_Cutplane2@activate$=0 AND $ifxOpenSGGlyphViewer_Cutplane3@activate$=0 AND $ifxCSTStreamer@activate$=0 AND $ifxOpenSGContourViewer@plot@attribute$=Amplitude" numberFormat="g" numberPrecision="4"/>
+  </TextItem>
+  <TextItem name="RMS">
+    <Text visible="true" label="Plot Attribute:" data="RMS" condition="$ifxOpenSGGlyphViewer@activate$=0 AND $ifxOpenSGGlyphViewer_PortMode@activate$=0 AND $ifxOpenSGGlyphViewer_Cutplane0@activate$=0 AND $ifxOpenSGGlyphViewer_Cutplane1@activate$=0 AND $ifxOpenSGGlyphViewer_Cutplane2@activate$=0 AND $ifxOpenSGGlyphViewer_Cutplane3@activate$=0 AND $ifxCSTStreamer@activate$=0 AND $ifxOpenSGContourViewer@plot@attribute$=RMS" numberFormat="g" numberPrecision="4"/>
+  </TextItem>
+  <TextItem name="Phase_Plot">
+    <Text visible="true" label="Plot Attribute:" data="Phase" condition="$ifxOpenSGGlyphViewer@activate$=0 AND $ifxOpenSGGlyphViewer_PortMode@activate$=0 AND $ifxOpenSGGlyphViewer_Cutplane0@activate$=0 AND $ifxOpenSGGlyphViewer_Cutplane1@activate$=0 AND $ifxOpenSGGlyphViewer_Cutplane2@activate$=0 AND $ifxOpenSGGlyphViewer_Cutplane3@activate$=0 AND $ifxCSTStreamer@activate$=0 AND $ifxOpenSGContourViewer@plot@attribute$=Phase" numberFormat="g" numberPrecision="4"/>
+  </TextItem>
+</CST3DFieldViewInfoText>
